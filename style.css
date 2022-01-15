@@ -15,13 +15,14 @@ body{
 .container{
     /* max-width: 1200px; */
     margin: 0 auto;
-    /* padding: 40px; */
+    padding: 40px;
 }   
 .navigation{
     display: flex;
     justify-content: space-between;    
     align-items: center;
     padding: 5%;
+    
 }
 
 .list{
@@ -38,6 +39,8 @@ body{
 }
 
  /* section styling */
+
+ /* First Section  */
 
  .section-title{
      white-space: nowrap;
@@ -317,4 +320,42 @@ body{
     font-weight: 600;
     font-family: 'Bangers', cursive;
 }
-   
+hr{
+    margin-bottom: 30px;
+}
+
+/* Second Section  */
+
+.second-title{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.second-section{
+    display: grid;
+    grid-template-columns: repeat(3,1.5fr);
+    gap: 20px;
+    /* text-align: center; */
+    align-items: center;
+    margin-top: 40px;
+
+}
+.box{
+    /* border: 2px solid; */
+    height: 450px;
+    width: 329px;
+    object-fit: cover;
+    padding: 10px;
+    box-shadow: 3px 3px 7px lightslategray;
+}
+ .box img{
+     width: 100%;
+ }  
+ .fa-star{
+    color: gold;
+ }
+ .third-section{
+    display: flex;
+    margin-top: 50px;
+    line-height: 30px;
+ }
