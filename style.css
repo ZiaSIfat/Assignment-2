@@ -13,10 +13,13 @@ body{
 /* navigation style  */
 
 .container{
-    /* max-width: 1200px; */
+    
     margin: 0 auto;
-    padding: 40px;
-}   
+    
+} 
+.heading{
+    font-size: 25px;
+}  
 .navigation{
     display: flex;
     justify-content: space-between;    
@@ -31,6 +34,7 @@ body{
 .list li{
     list-style: none;
     margin: 10px;
+    font-size: 25px;
 }
 .list a{
     text-decoration: none;
@@ -56,6 +60,11 @@ body{
      color:dodgerblue ;
      animation: typing 3s linear infinite;
  }
+
+
+  /* Title Animation */
+
+
  @keyframes typing{
      0%{
          content: 'S|';
@@ -300,6 +309,9 @@ body{
    
  }
 
+/* First Section Styling */
+
+
 .First-section{
     display: flex;
     margin-top: 50px;
@@ -324,7 +336,7 @@ hr{
     margin-bottom: 30px;
 }
 
-/* Second Section  */
+/* Second Section style */
 
 .second-title{
     text-align: center;
@@ -335,13 +347,15 @@ hr{
     display: grid;
     grid-template-columns: repeat(3,1.5fr);
     gap: 20px;
-    /* text-align: center; */
-    align-items: center;
+   align-items: center; 
     margin-top: 40px;
+    padding: 40px;
 
 }
+
+   /* Box Aligning */
 .box{
-    /* border: 2px solid; */
+    
     height: 450px;
     width: 329px;
     object-fit: cover;
@@ -354,8 +368,29 @@ hr{
  .fa-star{
     color: gold;
  }
+
+ /* Third-section style  */
+
  .third-section{
     display: flex;
     margin-top: 50px;
     line-height: 30px;
  }
+
+/* Footer Styles */
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+.icons{
+    margin: 0 5px;
+}
+
+
+    
+
