@@ -23,9 +23,7 @@ body{
     align-items: center;
     padding: 5%;
 }
-.heading{
 
-}
 .list{
     display: flex
 }
@@ -41,6 +39,264 @@ body{
 
  /* section styling */
 
+ .section-title{
+     white-space: nowrap;
+     position: relative;
+     color: transparent;
+     
+ }
+ .section-title::before{
+     content: 'Start Your Journey As A Influencer';
+     position: absolute;
+     top: 0;
+     left: 0;
+     color:dodgerblue ;
+     animation: typing 3s linear infinite;
+ }
+ @keyframes typing{
+     0%{
+         content: 'S|';
+     }
+     2%{
+         content:'St|'
+     }
+     4%{
+         content:'Sta|'
+     }
+     6%{
+         content:'Star|'
+     }
+     8%{
+         content:'Start|'
+     }
+     10%{
+         content:'Start Y|'
+     }
+     12%{
+         content:'Start Yo|'
+     }
+     14%{
+         content:'Start You|'
+     }
+     16%{
+         content:'Start Your|'
+     }
+     18%{
+         content:'Start Your J|'
+     }
+     20%{
+         content:'Start Your Jo|'
+     }
+     22%{
+         content:'Start Your Jou|'
+     }
+     24%{
+         content:'Start Your Jour|'
+     }
+     26%{
+         content:'Start Your Journ|'
+     }
+     28%{
+         content:'Start Your Journe|'
+     }
+     30%{
+         content:'Start Your Journey|'
+     }
+     32%{
+         content:'Start Your Journey A|'
+     }
+     34%{
+         content:'Start Your Journey As|'
+     }
+     36%{
+         content:'Start Your Journey As A|'
+     }
+     38%{
+         content:'Start Your Journey As A I|'
+     }
+     40%{
+         content:'Start Your Journey As A In|'
+     }
+     42%{
+         content:'Start Your Journey As A Inf|'
+     }
+     44%{
+         content:'Start Your Journey As A Infl|'
+     }
+     46%{
+         content:'Start Your Journey As A Influ|'
+     }
+     48%{
+         content:'Start Your Journey As A Influe|'
+     }
+     50%{
+         content:'Start Your Journey As A Influen|'
+     }
+     52%{
+         content:'Start Your Journey As A Influenc|'
+     }
+     54%{
+         content:'Start Your Start Your Journey As A Influence|'
+     }
+     56%{
+         content:'Start Your Start Your Journey As A Influencer|'
+     }
+     57%,
+     63%{
+         content:'Start Your Start Your Journey As A Influencer|' ;
+         
+     }
+     64%{
+         content:'Start Your Start Your Journey As A Influence|' ;
+         
+     }
+     65%{
+         content:'Start Your Start Your Journey As A Influenc|' ;
+         
+     }
+     66%{
+         content:'Start Your Start Your Journey As A Influen|' ;
+         
+     }
+     67%{
+         content:'Start Your Start Your Journey As A Influe|' ;
+         
+     }
+     68%{
+         content:'Start Your Start Your Journey As A Influ|' ;
+         
+     }
+     69%{
+         content:'Start Your Start Your Journey As A Infl|' ;
+         
+     }
+     70%{
+         content:'Start Your Start Your Journey As A Inf|' ;
+         
+     }
+     71%{
+         content:'Start Your Start Your Journey As A In|' ;
+         
+     }
+     72%{
+         content:'Start Your Start Your Journey As A I|' ;
+         
+     }
+     73%{
+         content:'Start Your Start Your Journey As A|' ;
+         
+     }
+     74%{
+         content:'Start Your Start Your Journey As|' ;
+         
+     }
+     75%{
+         content:'Start Your Start Your Journey A|' ;
+         
+     }
+     76%{
+         content:'Start Your Start Your Journey|' ;
+         
+     }
+     77%{
+         content:'Start Your Start Your Journe|' ;
+         
+     }
+     78%{
+         content:'Start Your Start Your Journ|' ;
+         
+     }
+     79%{
+         content:'Start Your Start Your Jour|' ;
+         
+     }
+     80%{
+         content:'Start Your Start Your Jou|' ;
+         
+     }
+     81%{
+         content:'Start Your Start Your Jo|' ;
+         
+     }
+     82%{
+         content:'Start Your Start Your J|' ;
+         
+     }
+     83%{
+         content:'Start Your Start Your|' ;
+         
+     }
+     84%{
+         content:'Start Your Start You|' ;
+         
+     }
+     85%{
+         content:'Start Your Start Yo|' ;
+         
+     }
+     86%{
+         content:'Start Your Start Y|' ;
+         
+     }
+     87%{
+         content:'Start Your Start|' ;
+         
+     }
+     88%{
+         content:'Start Your Star|' ;
+         
+     }
+     89%{
+         content:'Start Your Sta|' ;
+         
+     }
+     90%{
+         content:'Start Your St|' ;
+         
+     }
+     91%{
+         content:'Start Your S|' ;
+         
+     }
+     92%{
+         content:'Start You|' ;
+         
+     }
+     93%{
+         content:'Start Yo|' ;
+         
+     }
+     94%{
+         content:'Start Y|' ;
+         
+     }
+     95%{
+         content:'Start|' ;
+         
+     }
+     96%{
+         content:'Star|' ;
+         
+     }
+     97%{
+         content:'Sta|' ;
+         
+     }
+     98%{
+         content:'St|' ;
+         
+     }
+     99%{
+         content:'S|' ;
+         
+     }
+     100%{
+         content:'|' ;
+         
+     }
+   
+ }
+
 .First-section{
     display: flex;
     margin-top: 50px;
@@ -52,5 +308,13 @@ body{
 }
 .header img{
     width: 70%;
+}
+.button{
+    border-radius: 15px;
+    padding: 5px 10px;
+    background-color: dodgerblue;
+    color: white;
+    font-weight: 600;
+    font-family: 'Bangers', cursive;
 }
    
